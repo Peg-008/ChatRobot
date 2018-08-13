@@ -1,0 +1,99 @@
+/**
+ * Copyright (C), 2018-2018
+ * FileName: User
+ * Author:   sky丶风
+ * Date:     2018/8/13 16:07
+ * Description: user
+ * History:
+ * <author>          <time>          <version>          <desc>
+ * 作者姓名           修改时间           版本号              描述
+ */
+package com.chatRobot.model;
+
+/**
+ * 〈一句话功能简述〉<br> 
+ * 〈user〉
+ *
+ * @author sky丶风
+ * @create 2018/8/13
+ * @since 1.0.0
+ */
+import java.util.Date;
+
+public class User {
+
+    private long id;
+    private String email;
+    private String password;
+    private String username;
+    private String role;
+    private int status;
+    private Date regTime;
+    private String regIp;
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    public Date getRegTime() {
+        return regTime;
+    }
+
+    public void setRegTime(Date regTime) {
+        this.regTime = regTime;
+    }
+
+    public String getRegIp() {
+        return regIp;
+    }
+
+    public void setRegIp(String regIp) {
+        this.regIp = regIp;
+    }
+
+
+}
